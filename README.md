@@ -15,10 +15,6 @@
    - As informações de localização geográfica dos clientes devem ser armazenadas de forma precisa.
    - Deve ser possível visualizar a localização dos clientes em um mapa.
 
-3. **Visualização de Clientes no Mapa:**
-   - O sistema deve oferecer uma interface para visualizar os clientes em um mapa.
-   - Deve ser possível filtrar os clientes com base em critérios específicos.
-
 ### Requisitos Não Funcionais:
 
 1. **Segurança:**
@@ -42,10 +38,7 @@
    
 2. **Armazenamento Geográfico:**
    - A localização geográfica deve ser precisa o suficiente para permitir entregas no local exato.
-   
-3. **Visualização de Clientes no Mapa:**
-   - Os clientes devem ser representados de forma clara e distintiva no mapa.
-   - Deve ser possível aplicar filtros para visualizar apenas os clientes que atendem a determinados critérios.
+
 
 ## Plano de Teste:
 
@@ -60,9 +53,6 @@
    - Verificar se as informações de localização geográfica estão sendo armazenadas corretamente para cada cliente.
    - Testar a precisão da localização geográfica em diferentes casos de endereços.
 
-3. **Visualização de Clientes no Mapa:**
-   - Testar se todos os clientes cadastrados estão sendo exibidos no mapa.
-   - Aplicar diferentes filtros e verificar se apenas os clientes correspondentes são exibidos.
 
 ### Estratégia de Teste:
 
@@ -70,3 +60,25 @@
 - **Testes de Integração:** Para garantir que todos os componentes se integrem corretamente.
 - **Testes de Aceitação:** Para validar se o sistema atende aos requisitos do usuário final.
 - **Testes de Desempenho:** Para avaliar o desempenho do sistema sob diferentes cargas de trabalho.
+
+  ## Instruções de Build da Aplicação:
+
+1. **Clonagem do Repositório:**
+   - Clone este repositório em sua máquina local usando o comando:
+     ```
+     git clone https://github.com/seu-usuario/nome-do-repositorio.git
+     ```
+
+2. **Instalação de Dependências:**
+   - Navegue até o diretório do projeto e instale as dependências usando o gerenciador de pacotes de sua preferência. Por exemplo, usando npm:
+     ```
+     cd nome-do-repositorio
+     npm install
+     ```
+
+3. **Compilação e Execução:**
+   - Após a instalação das dependências, compile e execute a aplicação.
+   
+4. **Acesso à Aplicação:**
+   - Acesse a aplicação através do Postman utilizando o endereço local URL fornecido após a execução para fazer as chamadas de acordo com as necessedades.
+
